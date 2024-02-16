@@ -3,7 +3,7 @@
 ibmcloud ce application create --name movieapps \
     --image us.icr.io/${SN_ICR_NAMESPACE}/movieapps \
     --registry-secret icr-secret \
-    --src https://github.com/gradezero/qkfls-Movie-Reviews-Database \
+    --src https://github.com/gradezero/qkfls-Movie-Reviews-Database.git \
     --env CLOUDANT_URL=https://76838001-b883-444d-90d0-46f89e942a15-bluemix.cloudant.com \
     --env CLOUDANT_USERNAME=76838001-b883-444d-90d0-46f89e942a15-bluemix \
     --env CLOUDANT_PASSWORD=8fb6a16b48903e87b769e7f4968521e85c2394ed8f0e69b2769e56dcb27d2e76 \
