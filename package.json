@@ -1,7 +1,7 @@
 {
   "name": "get-started-node",
   "main": "server.js",
-  "description": "An introduction to developing Node.js apps on the IBM Cloud platform",
+  "description": "This is an introduction to developing Node.js apps on the IBM Cloud platform",
   "version": "0.1.1",
   "private": false,
   "engines": {
